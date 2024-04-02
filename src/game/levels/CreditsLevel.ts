@@ -1,5 +1,4 @@
 import { Color4 } from "@babylonjs/core/Maths/math.color.js";
-// import { Control } from "@babylonjs/gui/2D/controls/control.js";
 import { FreeCamera } from "@babylonjs/core/Cameras/freeCamera.js";
 import { Observable } from "@babylonjs/core/Misc/observable.js";
 import { Vector3 } from "@babylonjs/core/Maths/math.vector.js";
@@ -17,7 +16,7 @@ export class CreditsLevel extends Level {
     beforeRender() {}
 
     setupAssets() {
-        this.assets.addMusic("music", "/assets/musics/Guitar-Mayhem.mp3");
+        this.assets.addMusic("music", "assets/musics/Guitar-Mayhem.mp3");
     }
 
     buildScene() {

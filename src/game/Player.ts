@@ -1,11 +1,11 @@
-import { MeshBuilder } from "@babylonjs/core";
-import { StandardMaterial } from "@babylonjs/core";
-import { Color3 } from "@babylonjs/core";
-import { Animation } from "@babylonjs/core";
-import { Vector3 } from "@babylonjs/core";
-import { Control } from "@babylonjs/gui";
+import { Animation } from "@babylonjs/core/Animations/animation.js";
+import { Color3 } from "@babylonjs/core/Maths/math.color.js";
+import { Control } from "@babylonjs/gui/2D/controls/control.js";
+import { MeshBuilder } from "@babylonjs/core/Meshes/meshBuilder.js";
+import { Sound } from "@babylonjs/core/Audio/sound.js";
+import { StandardMaterial } from "@babylonjs/core/Materials/standardMaterial.js";
 import { TextBlock } from "@babylonjs/gui/2D/controls/textBlock.js";
-import { Sound } from "@babylonjs/core";
+import { Vector3 } from "@babylonjs/core/Maths/math.vector.js";
 import type { Mesh } from "@babylonjs/core/Meshes/mesh.js";
 import type { Nullable } from "@babylonjs/core/types.js";
 import type { Scene } from "@babylonjs/core/scene.js";

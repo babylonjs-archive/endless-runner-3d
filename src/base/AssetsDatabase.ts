@@ -1,8 +1,8 @@
-import { AbstractAssetTask } from "@babylonjs/core";
-import { AssetsManager } from "@babylonjs/core";
-import { ISoundOptions } from "@babylonjs/core";
-import { Scene } from "@babylonjs/core";
-import { Sound } from "@babylonjs/core";
+import { AssetsManager } from "@babylonjs/core/Misc/assetsManager.js";
+import { Sound } from "@babylonjs/core/Audio/sound.js";
+import type { AbstractAssetTask } from "@babylonjs/core/Misc/assetsManager.js";
+import type { ISoundOptions } from "@babylonjs/core/Audio/Interfaces/ISoundOptions.js";
+import type { Scene } from "@babylonjs/core/scene.js";
 
 export type CallbackFn = (tasks: AbstractAssetTask[]) => void;
 

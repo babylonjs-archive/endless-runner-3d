@@ -1,11 +1,11 @@
-import { ActionManager } from "@babylonjs/core";
-import { Color3 } from "@babylonjs/core";
-import { ExecuteCodeAction } from "@babylonjs/core";
-import { MeshBuilder } from "@babylonjs/core";
-import { Mesh } from "@babylonjs/core";
-import { StandardMaterial } from "@babylonjs/core";
-import { Tags } from "@babylonjs/core";
-import type { Scene } from "@babylonjs/core";
+import { ActionManager } from "@babylonjs/core/Actions/actionManager.js";
+import { Color3 } from "@babylonjs/core/Maths/math.color.js";
+import { ExecuteCodeAction } from "@babylonjs/core/Actions/directActions.js";
+import { MeshBuilder } from "@babylonjs/core/Meshes/meshBuilder.js";
+import { Mesh } from "@babylonjs/core/Meshes/mesh.js";
+import { StandardMaterial } from "@babylonjs/core/Materials/standardMaterial.js";
+import { Tags } from "@babylonjs/core/Misc/tags.js";
+import type { Scene } from "@babylonjs/core/scene.js";
 
 import { options } from "../../../options.js";
 import type { Monster } from "../../Monster.js";

@@ -1,13 +1,13 @@
-import { ArcRotateCamera } from "@babylonjs/core";
-import { Color4 } from "@babylonjs/core";
-import { Control } from "@babylonjs/gui";
-import { DirectionalLight } from "@babylonjs/core";
-import { HemisphericLight } from "@babylonjs/core";
-import { Observable } from "@babylonjs/core";
-import { PointLight } from "@babylonjs/core";
-import { ShadowGenerator } from "@babylonjs/core";
-import { TextBlock } from "@babylonjs/gui";
-import { Vector3 } from "@babylonjs/core";
+import { ArcRotateCamera } from "@babylonjs/core/Cameras/arcRotateCamera.js";
+import { Color4 } from "@babylonjs/core/Maths/math.color.js";
+import { Control } from "@babylonjs/gui/2D/controls/control.js";
+import { DirectionalLight } from "@babylonjs/core/Lights/directionalLight.js";
+import { HemisphericLight } from "@babylonjs/core/Lights/hemisphericLight.js";
+import { Observable } from "@babylonjs/core/Misc/observable.js";
+import { PointLight } from "@babylonjs/core/Lights/pointLight.js";
+import { ShadowGenerator } from "@babylonjs/core/Lights/Shadows/shadowGenerator.js";
+import { TextBlock } from "@babylonjs/gui/2D/controls/textBlock.js";
+import { Vector3 } from "@babylonjs/core/Maths/math.vector.js";
 
 import { UI } from "../../base/UI.js";
 import { Player } from "../Player.js";
@@ -50,16 +50,16 @@ export class RunnerLevel extends Level {
     setProperties() {}
 
     setupAssets() {
-        this.assets.addMusic("music", "/assets/musics/Guitar-Mayhem.mp3");
-        this.assets.addSound("playerDieSound", "/assets/sounds/game-die.mp3", {
+        this.assets.addMusic("music", "assets/musics/Guitar-Mayhem.mp3");
+        this.assets.addSound("playerDieSound", "assets/sounds/game-die.mp3", {
             volume: 0.4,
         });
-        this.assets.addSound("gotCoinSound", "/assets/sounds/coin-c-09.wav");
-        this.assets.addSound("damageSound", "/assets/sounds/damage.wav");
-        this.assets.addSound("approachSound", "/assets/sounds/monster.wav");
+        this.assets.addSound("gotCoinSound", "assets/sounds/coin-c-09.wav");
+        this.assets.addSound("damageSound", "assets/sounds/damage.wav");
+        this.assets.addSound("approachSound", "assets/sounds/monster.wav");
         this.assets.addSound(
             "attackSound",
-            "/assets/sounds/monster_attack.mp3",
+            "assets/sounds/monster_attack.mp3",
         );
     }
 

@@ -1,10 +1,8 @@
-import {
-    AdvancedDynamicTexture,
-    Button,
-    Control,
-    TextBlock,
-    Vector2WithInfo,
-} from "@babylonjs/gui";
+import { AdvancedDynamicTexture } from "@babylonjs/gui/2D/advancedDynamicTexture.js";
+import { Button } from "@babylonjs/gui/2D/controls/button.js";
+import { Control } from "@babylonjs/gui/2D/controls/control.js";
+import { TextBlock } from "@babylonjs/gui/2D/controls/textBlock.js";
+import { Vector2WithInfo } from "@babylonjs/gui/2D/math2D.js";
 
 export interface Options {
     width?: number;

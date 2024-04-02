@@ -1,5 +1,5 @@
-import { Engine } from "@babylonjs/core";
-import { Nullable } from "@babylonjs/core";
+import { Engine } from "@babylonjs/core/Engines/engine.js";
+import { Nullable } from "@babylonjs/core/types.js";
 
 import { Level } from "./base/Level.js";
 import { Log } from "./base/Log.js";
@@ -7,6 +7,14 @@ import { RunnerLevel } from "./game/levels/RunnerLevel.js";
 import { CreditsLevel } from "./game/levels/CreditsLevel.js";
 import { HomeMenuLevel } from "./game/levels/HomeMenuLevel.js";
 import { keys } from "./common.js";
+
+import "@babylonjs/core/Audio/audioSceneComponent.js";
+import "@babylonjs/core/Collisions/collisionCoordinator.js";
+import "@babylonjs/core/Helpers/sceneHelpers.js";
+import "@babylonjs/core/Lights/Shadows/shadowGeneratorSceneComponent.js";
+import "@babylonjs/core/Loading/loadingScreen.js";
+import "@babylonjs/core/Materials/standardMaterial.js";
+// import "@babylonjs/core/Rendering/edgesRenderer.js"
 
 import "hammerjs";
 

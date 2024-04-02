@@ -18,7 +18,7 @@ export class HomeMenuLevel extends Level {
     beforeRender() {}
 
     setupAssets() {
-        this.assets.addMusic("music", "/assets/musics/Guitar-Mayhem.mp3");
+        this.assets.addMusic("music", "assets/musics/Guitar-Mayhem.mp3");
     }
 
     buildScene() {

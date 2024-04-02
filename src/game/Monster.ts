@@ -1,9 +1,9 @@
-import { Color3 } from "@babylonjs/core";
-import { Mesh } from "@babylonjs/core";
-import { MeshBuilder } from "@babylonjs/core";
-import { Scene } from "@babylonjs/core";
-import { Sound } from "@babylonjs/core";
-import { StandardMaterial } from "@babylonjs/core";
+import { Color3 } from "@babylonjs/core/Maths/math.color.js";
+import { Mesh } from "@babylonjs/core/Meshes/mesh.js";
+import { MeshBuilder } from "@babylonjs/core/Meshes/meshBuilder.js";
+import { Scene } from "@babylonjs/core/scene.js";
+import { Sound } from "@babylonjs/core/Audio/sound.js";
+import { StandardMaterial } from "@babylonjs/core/Materials/standardMaterial.js";
 
 import { options } from "../options.js";
 import type { RunnerLevel } from "./levels/RunnerLevel.js";
