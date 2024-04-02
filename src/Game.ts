@@ -14,7 +14,6 @@ import "@babylonjs/core/Helpers/sceneHelpers.js";
 import "@babylonjs/core/Lights/Shadows/shadowGeneratorSceneComponent.js";
 import "@babylonjs/core/Loading/loadingScreen.js";
 import "@babylonjs/core/Materials/standardMaterial.js";
-// import "@babylonjs/core/Rendering/edgesRenderer.js"
 
 import "hammerjs";
 
